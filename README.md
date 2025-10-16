@@ -1,4 +1,4 @@
-# Dashboard_Immobilier_Reunion ( 24 Communes ) 2 METHODES ( HTTP ou LOCAL ) ( Données 2024 ) 
+# Dashboard_Immobilier_Reunion ( 24 Communes ) - 2 METHODES ( HTTP ou LOCAL ) ( Données 2024 ) 
 🏝️ Dashboard Immobilier Réunion  ℹ️ Données réelles DVF 2024 pour les communes (INSEE 97419), provenant de data.gouv.fr
 <img width="662" height="465" alt="Screenshot_2025-10-15_18-46-48" src="https://github.com/user-attachments/assets/8c02bae0-9852-484e-8b1b-06b565a6517f" />
 
@@ -22,7 +22,7 @@
 
     curl -L -o dvf_2024.csv.gz "https://files.data.gouv.fr/geo-dvf/latest/csv/2024/full.csv.gz"
 
-# RUN PROGRAM ( PARIS - 20 Arrondissements ) METHODE LOCAL
+# RUN PROGRAM ( REUNION - 24 Communes ) METHODE LOCAL
 
     streamlit run Dash.py
 
